@@ -7,7 +7,7 @@ export default antfu({
     typescript: {
         tsconfigPath: 'tsconfig.json',
         ignoresTypeAware: [
-            'src/not-type-aware.ts',
+            'not-type-aware.ts',
         ],
     },
 })
